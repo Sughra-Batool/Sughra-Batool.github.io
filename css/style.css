@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'boombox2';
+    src: url('../fonts/boombox2.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Subway Novella';
+    src: url('../fonts/SubwayNovellaDEMO.ttf') format('truetype');
+}
+
+body{
+    font-family: "roboto", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    /*padding-inline:3cm;*/
+}
+
+section{
+    margin-block: 20px;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primary-navigation ul, 
+.primary-navigation a{
+    display:flex;
+    gap:30px;
+    list-style:none;
+    color:#303030;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+
+.header-right{
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+
+.header-right ul, .header-right a{
+    list-style: none;
+    color:#303030;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.secondary-navigation ul, 
+.secondary-navigation a{
+    display: flex;
+    gap:50px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    color:#303030;
+    justify-content:center;
+}
+
+.grey-background {
+    background-color: #494d4d;
+    text-align: center;
+    padding: 10px;
+}
+
+.normal-font-grey {
+    color: #C3C7C7;
+}
+
+.Subway-Novella-font-grey {
+    font-family: 'Subway Novella', 'sans-serif';
+    color:#F5F7FA;
+}
+
+.Subway-Novella-font {
+    font-family: 'Subway Novella', 'sans-serif';
+    font-size:1.95rem;
+    color:#303030;
+}
+
+.Subway-Novella-font-gold {
+    font-family: 'Subway Novella', 'sans-serif';
+    color:#ffd700;
+}
+
+.Courgette-font-gold {
+    font-family: 'Courgette', 'sans-serif';
+    color: #ffd700;
+}
+.boombox-font {
+    font-family: 'boombox2', 'sans-serif';
+}
+
+.center-align {
+    text-align: center;
+}
+.gold-font {
+    color: #ffd700;
+}
+
+.wrapper{ /*most developer uses class container instead of wrapper.*/
+    max-inline-size:1000px; /*this is to limit the maximum size while maintaining the auto property of wrapping when screen is smaller*/
+    margin-inline:auto;/*this to make sure that the content is always in the middle when screen is too big than the max size*/
+}
+
+.four-column-layout {
+    display: flex;
+    gap:10px;
+    align-items:stretch;
+    padding-block-start: 20px;
+}
+
+.box p {
+    color: #494d4d;
+    text-align: center;
+}
+
+.box {
+    flex: 1;
+    box-sizing: border-box;
+    border: 2px solid #9c9a9a;
+    padding:0px 5px 0px 5px;
+}
+
+.box h5 {
+    text-align: center;
+    margin: 0.5em;
+}
+
+.slogans {
+    font-family: 'Roboto' 'sans-serif';
+    text-align: center;
+}
+
+.box-topless {
+    border:#303030 solid 2px;
+    border-top: none;
+}
+
+.grey-font-color {
+    font-size:small;
+}
+
+
+
+
+
+
